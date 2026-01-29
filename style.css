@@ -4,7 +4,7 @@ body {
     background-color: #fafafa;
 }
 
-/* HEADER */
+
 header {
     text-align: center;
     padding: 20px;
@@ -16,7 +16,7 @@ header {
     border-radius: 50%;
 }
 
-/* MENU */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -34,7 +34,7 @@ nav ul li a {
     color: white;
 }
 
-/* MAIN */
+
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -63,7 +63,7 @@ td, th {
     padding: 8px;
 }
 
-/* BOUTONS */
+
 .btn {
     display: inline-block;
     background-color: #007BFF;
@@ -83,14 +83,14 @@ td, th {
     text-decoration: none;
 }
 
-/* QR CODE */
+
 .qrcode {
     position: absolute;
     top: 20px;
     right: 20px;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -102,13 +102,14 @@ footer {
     font-weight: bold;
     color: #ffcc00;
 }
-/* Images dans les sections */
+
 .img-section {
-    width: 60%;          /* 🔹 taille réduite */
-    max-width: 500px;    /* 🔹 limite maximale */
-    height: auto;        /* garde les proportions */
-    display: block;      /* permet le centrage */
-    margin: 15px auto;   /* centre horizontalement */
-    border-radius: 12px; /* joli arrondi */
+    width: 60%;
+    max-width: 500px;    
+    height: auto;        
+    display: block;     
+    margin: 15px auto;   
+    border-radius: 12px; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+
