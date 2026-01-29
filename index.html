@@ -4,22 +4,61 @@
     <meta charset="UTF-8">
     <title>Paris </title>
 
-    <!-- CSS EXTERNE -->
+   
     <link rel="stylesheet" href="style.css">
 
-    <!-- CSS INTERNE -->
-   
+    
+    <style>
+        h1 {
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            padding: 15px;
+            text-shadow: 2px 2px 5px gray;
+            text-align: center;
+        }
+
+       
+        .btn-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 14px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .btn-top:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 
 <body id="top">
 
-<header>
+<header class="header-top">
+
+  
+  <div class="header-center">
     <img src="photo meriem belly.jpg" alt="Photo" class="photo">
-    <h1>Paris </h1>
-    <img src="QR.png"
-     class="header-qr" alt="QR Code Github">
-    <p>Github</p>
+    <p class="name">Meriem Blouh</p>
+    <h1>Paris</h1>
+  </div>
+
+  
+  <div class="header-right">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=https://blouhmeriem.github.io/Paris-/"
+         class="qrcode" alt="QR Code vers mon site">
+    <p class="qr-text">Mon site</p>
+  </div>
+
 </header>
+
+
 
 <nav>
     <ul>
@@ -32,7 +71,7 @@
 </nav>
 
 <main>
-
+    
     <section id="intro">
         <h2>Introduction à Paris</h2>
         <article>
@@ -117,31 +156,25 @@
 </main>
 
 
+
+
 <a href="#top" class="btn-top">↑</a>
 
 <footer class="footer">
     <pre class="ascii">
-<pre class="ascii">
- __  __           _               
+ __   __                 
 |  \/  | ___ _ __(_)
 | |\/| |/ _ \ '__| |
 | |  | |  __/ |  | |
 |_|  |_|\___|_|  |_|
-</pre>
-
     </pre>
 
     <p class="copyright">© Meriem Blouh - 2026</p>
 </footer>
 
 
+
 </body>
 </html>
-
-
-
-
-
-
 
 
