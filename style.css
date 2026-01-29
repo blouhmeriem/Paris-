@@ -11,6 +11,31 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.header-qr {
+    width: 180px;
+    height: 180px;
+    padding: 6px;
+    background: white;
+    border: 3px solid beige; 
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease , box-shadow 0.3s ease;
+    background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(90deg, #cdaa80, #334333, #092367, #213a56) border-box;
+    background-size: 400% 400%;
+    animation: borderGlow 5s ease infinite;
+}
+
+.header-qr:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(41, 71, 52, 0.5);
+}
+
+
+
+
+
 .photo {
     width: 120px;
     border-radius: 50%;
@@ -177,4 +202,5 @@ section, aside {
     clear: both;
     margin-bottom: 50px;
 }
+
 
