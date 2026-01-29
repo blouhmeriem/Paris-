@@ -17,13 +17,13 @@ header {
     right: 20px;
     width: 70px;
     height: 70px;
-    padding: 5px;
+    padding: 10px;
     background-color: white;
     border: 3px solid #333;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .head-qr:hover {
@@ -202,6 +202,7 @@ section, aside {
     clear: both;
     margin-bottom: 50px;
 }
+
 
 
 
