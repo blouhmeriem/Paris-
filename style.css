@@ -42,6 +42,42 @@ main {
     padding: 20px;
 }
 
+
+
+  h1 {
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            padding: 15px;
+            text-shadow: 2px 2px 5px gray;
+            text-align: center;
+        }
+
+        /* BOUTON RETOUR EN HAUT */
+        .btn-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 14px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .btn-top:hover {
+            background-color: #555;
+        }
+
+
+
+
+
+
+
+
 section, aside {
     background: white;
     padding: 15px;
@@ -141,3 +177,4 @@ section, aside {
     clear: both;
     margin-bottom: 50px;
 }
+
