@@ -4,17 +4,43 @@
     <meta charset="UTF-8">
     <title>Paris </title>
 
-    
+    <!-- CSS EXTERNE -->
     <link rel="stylesheet" href="style.css">
 
-    
-    
+    <!-- CSS INTERNE -->
+    <style>
+        h1 {
+            background-color: #f4f4f4;
+            border-radius: 15px;
+            padding: 15px;
+            text-shadow: 2px 2px 5px gray;
+            text-align: center;
+        }
+
+        /* BOUTON RETOUR EN HAUT */
+        .btn-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 10px 14px;
+            border-radius: 50%;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+        }
+
+        .btn-top:hover {
+            background-color: #555;
+        }
+    </style>
 </head>
 
 <body id="top">
 
 <header>
-
     <img src="photo meriem belly.jpg" alt="Photo" class="photo">
     <h1>Paris </h1>
 </header>
@@ -35,9 +61,11 @@
         <h2>Introduction à Paris</h2>
         <article>
             <p>
-                Paris est la capitale de la France et l’une des villes les plus
-                visitées au monde. Elle est connue pour son histoire, son art,
-                son architecture et son ambiance romantique.
+                Paris est la capitale de la France et l’une des villes les plus célèbres au monde. 
+                Elle est connue pour son riche patrimoine historique, son architecture élégante et sa culture artistique exceptionnelle. 
+                Surnommée la Ville Lumière, Paris attire chaque année des millions de visiteurs grâce à ses monuments
+                emblématiques, ses musées renommés, ses cafés traditionnels et son ambiance unique.
+                C’est une ville où l’histoire, l’art et la modernité se rencontrent harmonieusement.
             </p>
 
            
@@ -49,8 +77,9 @@
         <h2>Les monuments célèbres de Paris</h2>
         <article>
             <p>
-                Paris abrite des monuments emblématiques comme la Tour Eiffel,
-                le Louvre, l’Arc de Triomphe et la cathédrale Notre-Dame.
+                Paris est célèbre pour ses monuments historiques qui font sa renommée dans le monde entier.
+                La Tour Eiffel est le symbole le plus connu de la ville, tandis que le musée du Louvre attire des millions de visiteurs grâce à ses œuvres d’art.
+                L’Arc de Triomphe et la cathédrale Notre-Dame représentent également l’histoire et la beauté architecturale de Paris.
             </p>
 
            
@@ -62,8 +91,8 @@
         <h2>La culture parisienne</h2>
         <article>
             <p>
-                La culture parisienne est riche et variée avec ses musées,
-                théâtres, cafés historiques et sa gastronomie renommée.
+                La culture parisienne est riche et variée. Paris est une ville connue pour ses musées, ses théâtres, ses cinémas et ses galeries d’art.
+                Les cafés parisiens, la gastronomie française et les événements culturels donnent à la ville une ambiance unique et très appréciée par les visiteurs.
             </p>
 
             
@@ -111,9 +140,12 @@
 
 </main>
 
- <img src="QR.png"
+
+<img src="QR.png"
      class="qrcode" alt="QR Code Github">
-<a href="#top" class="btn-top">↑ Retour en haut</a>
+
+
+<a href="#top" class="btn-top">↑</a>
 
 <footer class="footer">
     <pre class="ascii">
@@ -133,9 +165,5 @@
 
 </body>
 </html>
-
-
-
-
 
 
