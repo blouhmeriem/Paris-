@@ -4,43 +4,19 @@ body {
     background-color: #fafafa;
 }
 
-/* HEADER */
+
 header {
     text-align: center;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.header-qr {
-    position: fixed !important;
-    top: 80px !important;
-    right: 0 !important;
-    margin-right: 60px !important;  
-    width: 50px !important;
-    height: 50px !important;
-    padding: 8px !important;
-    background-color: white !important;
-    border: 2px solid #333 !important;
-    border-radius: 10px !important;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
-    z-index: 9999 !important;
-}
-
-.header-qr:hover {
-    transform: scale(1.1) !important;
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4) !important;
-}
-
-
-
-
-
 .photo {
     width: 120px;
     border-radius: 50%;
 }
 
-/* MENU */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -58,7 +34,7 @@ nav ul li a {
     color: white;
 }
 
-/* MAIN */
+
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -66,49 +42,13 @@ main {
     padding: 20px;
 }
 
-
-
-  h1 {
-            background-color: #f4f4f4;
-            border-radius: 15px;
-            padding: 15px;
-            text-shadow: 2px 2px 5px gray;
-            text-align: center;
-        }
-
-        /* BOUTON RETOUR EN HAUT */
-        .btn-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #333;
-            color: white;
-            padding: 10px 14px;
-            border-radius: 50%;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
-
-        .btn-top:hover {
-            background-color: #555;
-        }
-
-
-
-
-
-
-
-
 section, aside {
     background: white;
     padding: 15px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* TABLE */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -123,7 +63,7 @@ td, th {
     padding: 8px;
 }
 
-/* BOUTONS */
+
 .btn {
     display: inline-block;
     background-color: #007BFF;
@@ -143,7 +83,6 @@ td, th {
     text-decoration: none;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -155,36 +94,29 @@ footer {
     font-weight: bold;
     color: #ffcc00;
 }
-/* Images dans les sections */
+
 .img-section {
-    width: 60%;          /* 🔹 taille réduite */
-    max-width: 500px;    /* 🔹 limite maximale */
-    height: auto;        /* garde les proportions */
-    display: block;      /* permet le centrage */
-    margin: 15px auto;   /* centre horizontalement */
-    border-radius: 12px; /* joli arrondi */
+    width: 60%;          
+    max-width: 500px;    
+    height: auto;        
+    display: block;      
+    margin: 15px auto;   
+    border-radius: 12px; 
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
-/* ESPACEMENT ENTRE LES PARAGRAPHES */
+
 section {
-    margin-bottom: 50px;   /* espace entre chaque section */
+    margin-bottom: 50px;  
 }
 
 article p {
-    margin-bottom: 20px;   /* espace entre le texte et l'image */
-    line-height: 1.7;      /* texte plus lisible */
+    margin-bottom: 20px;   
+    line-height: 1.7;     
 }
 
-/* Images bien séparées */
-.img-section {
-    display: block;
-    margin: 20px auto;
-    width: 60%;
-    max-width: 450px;
-    height: auto;
-    border-radius: 12px;
-}
-/* FORCER LES SECTIONS À ÊTRE L'UNE SOUS L'AUTRE */
+
+
+
 main {
     display: block;
 }
@@ -195,12 +127,30 @@ section, aside {
     margin-bottom: 50px;
 }
 
+.header-top{
+  position: relative;
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  padding: 20px 40px;
+  background: #f5f5f5;
+}
 
 
 
 
+.header-left{ text-align:center; }
+.name{ margin-top:8px; font-weight:bold; }
 
+.header-center h1{
+  margin:0;
+  font-size:32px;
+}
 
-
-
-
+.header-right{
+  position: absolute;
+  right: 40px;       /* ✅ QR reste à droite */
+  text-align: center;
+}
+.qrcode{ width:120px; height:120px; display:block; }
+.qr-text{ margin-top:6px; font-size:14px; }
