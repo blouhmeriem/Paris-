@@ -11,26 +11,27 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 /* QR CODE STYLISÉ */
+/* QR CODE EN HAUT À DROITE */
 .head-qr {
-    position: fixed;
-    top: 80px;
-    right: 20px;
-    width: 70px;
-    height: 70px;
-    padding: 8px;
-    background-color: white;
-    border: 3px solid #333;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    z-index: 9999;
+    position: fixed !important;
+    top: 80px !important;
+    right: 20px !important;
+    left: auto !important;  /* Force à ne pas être à gauche */
+    width: 80px !important;
+    height: 80px !important;
+    margin: 0 !important;  /* Pas de margin */
+    padding: 8px !important;
+    background-color: white !important;
+    border: 2px solid #333 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+    z-index: 9999 !important;
 }
 
 .head-qr:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1) !important;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4) !important;
 }
-
 
 
 
@@ -195,6 +196,7 @@ section, aside {
     clear: both;
     margin-bottom: 50px;
 }
+
 
 
 
