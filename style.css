@@ -10,7 +10,26 @@ header {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+/* QR CODE STYLISÉ */
+.head-qr {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid #333;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 1000;
+}
 
+.head-qr:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
 
 
 
@@ -183,6 +202,7 @@ section, aside {
     clear: both;
     margin-bottom: 50px;
 }
+
 
 
 
