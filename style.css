@@ -4,7 +4,7 @@ body {
     background-color: #fafafa;
 }
 
-
+/* HEADER */
 header {
     text-align: center;
     padding: 20px;
@@ -16,7 +16,7 @@ header {
     border-radius: 50%;
 }
 
-
+/* MENU */
 nav ul {
     list-style: none;
     display: flex;
@@ -34,40 +34,7 @@ nav ul li a {
     color: white;
 }
 
-h1 {
-            background-color: #f4f4f4;
-            border-radius: 15px;
-            padding: 15px;
-            text-shadow: 2px 2px 5px gray;
-            text-align: center;
-        }
-
-        
-        .btn-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #333;
-            color: white;
-            padding: 10px 14px;
-            border-radius: 50%;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-        }
-
-        .btn-top:hover {
-            background-color: #555;
-        }
-
-
-
-
-
-
-
-
+/* MAIN */
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -81,7 +48,7 @@ section, aside {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-
+/* TABLE */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -96,7 +63,7 @@ td, th {
     padding: 8px;
 }
 
-
+/* BOUTONS */
 .btn {
     display: inline-block;
     background-color: #007BFF;
@@ -116,14 +83,14 @@ td, th {
     text-decoration: none;
 }
 
-
+/* QR CODE */
 .qrcode {
     position: absolute;
     top: 20px;
     right: 20px;
 }
 
-
+/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -135,15 +102,42 @@ footer {
     font-weight: bold;
     color: #ffcc00;
 }
-
+/* Images dans les sections */
 .img-section {
-    width: 60%;
-    max-width: 500px;    
-    height: auto;        
-    display: block;     
-    margin: 15px auto;   
-    border-radius: 12px; 
+    width: 60%;          /* 🔹 taille réduite */
+    max-width: 500px;    /* 🔹 limite maximale */
+    height: auto;        /* garde les proportions */
+    display: block;      /* permet le centrage */
+    margin: 15px auto;   /* centre horizontalement */
+    border-radius: 12px; /* joli arrondi */
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
+/* ESPACEMENT ENTRE LES PARAGRAPHES */
+section {
+    margin-bottom: 50px;   /* espace entre chaque section */
+}
 
+article p {
+    margin-bottom: 20px;   /* espace entre le texte et l'image */
+    line-height: 1.7;      /* texte plus lisible */
+}
 
+/* Images bien séparées */
+.img-section {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
+}
+/* FORCER LES SECTIONS À ÊTRE L'UNE SOUS L'AUTRE */
+main {
+    display: block;
+}
+
+section, aside {
+    width: 100%;
+    clear: both;
+    margin-bottom: 50px;
+}
